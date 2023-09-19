@@ -18,8 +18,8 @@ You can view a live demo of this portfolio website [here](https://www.example.co
 - [Optional] JavaScript for interactivity
 
 ## Screenshots
-![Home Section](screenshots/home.png)
-*Home Section*
+(10-Portfolio Website/Images/ss1.png)
+
 
 ![Projects Section](screenshots/projects.png)
 *Projects Section*
