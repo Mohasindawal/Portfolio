@@ -18,14 +18,12 @@ You can view a live demo of this portfolio website [here](https://www.example.co
 - [Optional] JavaScript for interactivity
 
 ## Screenshots
-(10-Portfolio Website/Images/ss1.png)
 
+<img src="ss1.PNG">
+<img src="ss2.PNG">
+<img src="ss3.PNG">
+<img src="ss4.PNG">
+<img src="ss5.PNG">
+<img src="ss6.PNG">
+<img src="ss7.PNG">
 
-![Projects Section](screenshots/projects.png)
-*Projects Section*
-
-![Skills Section](screenshots/skills.png)
-*Skills Section*
-
-![Contact Section](screenshots/contact.png)
-*Contact Section*
