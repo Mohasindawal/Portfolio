@@ -459,6 +459,7 @@ nav ul li a:hover {
 .skillContainer {
   position: relative;
   display: flex;
+  flex-direction: column;
   padding: 5rem;
   margin: 10rem auto;
   gap: 30px;
@@ -467,7 +468,7 @@ nav ul li a:hover {
 .leftSkillContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
 }
 
 .skillHeading {
@@ -493,7 +494,7 @@ nav ul li a:hover {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  width: 50%;
+  width: 100%;
   position: relative;
   justify-content: center;
 }
@@ -524,14 +525,13 @@ nav ul li a:hover {
 }
 
 .skillFadedText {
-  font-size: 12em;
-  right: -9%;
-  bottom: -35%;
+  font-size: 5em;
+ 
   user-select: none;
   color: #e7e7e7;
   font-weight: bold;
-  right: 40px;
-  top: 480px;
+  left: 50px;
+  top: -100px;
 }
 
 /* Skill Section End  */
@@ -597,6 +597,8 @@ nav ul li a:hover {
 }
 
 .formBtn .btn {
+  background: #e84949;
+
   transition: 0.5s;
   border: none;
   font-size: 1.4rem;
@@ -623,7 +625,7 @@ footer {
 }
 
 .footerFadedText {
-  font-size: 5em;
+  font-size: 4em;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -633,6 +635,7 @@ footer {
 
 .footerContainer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
@@ -657,4 +660,96 @@ footer {
 .iconContainer{
   display: flex;
   gap: 1rem;
+}
+
+/* Media Query for screens smaller than 768px (e.g., mobile phones) */
+@media screen and (max-width: 768px) {
+ 
+  .heroSection {
+    flex-direction: column; /* Stack sections vertically */
+    width: 100%;
+    gap: 2rem;
+    margin: 2rem auto; /* Adjust margin */
+    padding: 0 1rem;
+    padding-bottom: 4rem; /* Adjust padding for hero section */
+  }
+
+  .infoContainer {
+    width: 100%; /* Make info container full width */
+    text-align: center; /* Center align text */
+  }
+
+  .fadedText {
+    display: none; /* Hide the faded text */
+  }
+
+  .heading {
+    font-size: 28px; /* Adjust font size for headings */
+    line-height: 26px;
+  }
+
+  .subHeading {
+    font-size: 35px; /* Adjust font size for subheadings */
+    line-height: 32px;
+  }
+
+  .desc {
+    font-size: 14px; /* Adjust font size for description */
+    width: 90%; /* Adjust width for description */
+  }
+
+  .btn {
+    padding: 0.6rem 1.5rem; /* Adjust button padding */
+    font-size: 16px; /* Adjust font size for button */
+  }
+
+  .userImage {
+    width: 100%; /* Make user image full width */
+    padding: 1rem; /* Adjust padding for user image */
+  }
+}
+
+/* Media Query for screens between 769px and 1200px (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  /* Add your custom styles for tablets here */
+}
+
+/* Media Query for screens larger than 1200px (e.g., desktops) */
+@media screen and (min-width: 1201px) {
+  /* Add your custom styles for desktops here */
+}
+
+/* Media Query for screens smaller than 768px (e.g., mobile phones) */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px 20px; /* Adjust padding for the header */
+  }
+
+  header .logo img {
+    width: 50px; /* Adjust the logo size */
+  }
+
+  .logoText {
+    font-size: 24px; /* Adjust the logo text size */
+  }
+
+  nav ul {
+    margin-right: 0; /* Remove right margin for navigation links */
+    padding: 0; /* Remove padding for navigation links */
+    flex-direction: column; /* Stack navigation links vertically */
+    align-items: center; /* Center align navigation links */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Add space between navigation links */
+  }
+
+  nav ul li a {
+    font-size: 18px; /* Adjust font size for navigation links */
+  }
+
+  nav ul li a:hover {
+    transform: none; /* Remove hover effect */
+    font-weight: normal; /* Remove bold font weight on hover */
+  }
 }
