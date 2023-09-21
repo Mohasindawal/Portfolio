@@ -663,7 +663,7 @@ footer {
 }
 
 /* Media Query for screens smaller than 768px (e.g., mobile phones) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1117px) {
  
   .heroSection {
     flex-direction: column; /* Stack sections vertically */
