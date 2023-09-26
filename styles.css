@@ -403,7 +403,7 @@ nav ul li a:hover {
 }
 
 .rightProjectContent {
-  right: 5%;
+  left: 30%;
 }
 
 .projectSkillsContainer {
@@ -752,4 +752,36 @@ footer {
     transform: none; /* Remove hover effect */
     font-weight: normal; /* Remove bold font weight on hover */
   }
+
+  .projectNumber{
+    font-size: 100px;
+  }
+  .rightNumber{
+    right: 10px;
+    top: 10px;
+  }
+  .leftNumber{
+    left: 10px;
+    top: 10px;
+  }
+  .projectHeading{
+    font-size: 30px;
+  }
+  .rightProjectContent{
+    position: relative;
+    top: 150px;
+    left: 70px;
+  }
+  .projectSubHeading{
+    font-size: 15px;
+  }
+  #project3 .projectContent{
+    position: relative;
+    top: 100px;
+  }
+  #project1 .projectContent{
+    position: relative;
+    top: 100px;
+  }
 }
+
