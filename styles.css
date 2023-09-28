@@ -183,7 +183,7 @@ nav ul li a:hover {
   }
 
   50% {
-    filter: grayscale(1);
+    filter: grayscale(0);
     box-shadow: 3px 3px 10px black;
     scale: 0.9;
   }
@@ -674,6 +674,11 @@ footer {
     padding-bottom: 4rem; /* Adjust padding for hero section */
   }
 
+  .userImage img{
+    padding-bottom: 10px;
+    width: 100%;
+    height: 370px;
+  }
   .infoContainer {
     width: 100%; /* Make info container full width */
     text-align: center; /* Center align text */
@@ -709,22 +714,15 @@ footer {
   }
 }
 
-/* Media Query for screens between 769px and 1200px (e.g., tablets) */
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-  /* Add your custom styles for tablets here */
-}
-
-/* Media Query for screens larger than 1200px (e.g., desktops) */
-@media screen and (min-width: 1201px) {
-  /* Add your custom styles for desktops here */
-}
-
 /* Media Query for screens smaller than 768px (e.g., mobile phones) */
 @media screen and (max-width: 768px) {
   header {
     padding: 10px 20px; /* Adjust padding for the header */
   }
-
+  .userImage img{
+    width: 100%;
+    height: 360px;
+  }
   header .logo img {
     width: 50px; /* Adjust the logo size */
   }
@@ -754,23 +752,28 @@ footer {
   }
 
   .projectNumber{
-    font-size: 100px;
+    font-size: 90px;
   }
   .rightNumber{
-    right: 10px;
-    top: 10px;
+    right: 9px;
+    top: -10px;
   }
   .leftNumber{
-    left: 10px;
-    top: 10px;
+    left: 9px;
+    top: -10px;
   }
   .projectHeading{
     font-size: 30px;
   }
   .rightProjectContent{
     position: relative;
-    top: 150px;
-    left: 70px;
+    top: 105px;
+    left: 30px;
+  }
+  .leftProjectContent{
+    position: relative;
+    top: 105px;
+    right: 30px;
   }
   .projectSubHeading{
     font-size: 15px;
@@ -782,6 +785,14 @@ footer {
   #project1 .projectContent{
     position: relative;
     top: 100px;
+  }
+  .btnGroup .btnProject {
+    padding: 10px;
+  }
+  .btnGroup {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
   }
 }
 
