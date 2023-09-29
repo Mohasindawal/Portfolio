@@ -303,23 +303,27 @@ nav ul li a:hover {
 }
 
 #project1 {
-  background-image: url(./Images/projects/Project1.png);
+  background-image: url();
   right: 5%;
 }
 
 #project2 {
-  background-image: url(./Images/projects/Project2.png);
+  background-image: url(./Images/projects/Project1.png);
   left: 5%;
 }
 
 #project3 {
-  background-image: url(./Images/projects/Project3.png);
+  background-image: url(./Images/projects/Project2.png);
   right: 5%;
 }
 
 #project4 {
-  background-image: url(./Images/projects/Project4.png);
+  background-image: url(./Images/projects/Project3.png);
   left: 5%;
+}
+#project5 {
+  background-image: url(./Images/projects/Project4.png);
+  right: 5%;
 }
 
 .projectCard {
