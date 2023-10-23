@@ -30,5 +30,3 @@ You can view a live demo of this portfolio website [here](https://mohasindawal.g
 ## Acknowledgments
 
 I would like to express my gratitude to Bharat Interns for providing me with the opportunity to work on this project and learn valuable skills in web development. I also want to thank the online community for their tutorials and resources, which greatly assisted me in completing this project.
-
-Please feel free to use, modify, or contribute to this project as needed. Your feedback and contributions are highly appreciated!
