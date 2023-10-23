@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-This is a simple portfolio website I created as my first task during my Bharat intern. It showcases my skills, projects, and contact information.
+This is a simple portfolio website I created. It showcases my skills, projects, and contact information.
 
 ## Demo
 You can view a live demo of this portfolio website [here](https://mohasindawal.github.io/Portfolio/).
